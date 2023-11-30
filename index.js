@@ -80,7 +80,9 @@ start();
 async function botRedactData(data) {
   // let token = data;
   // let chatId = await data;
-  let token = "6867558928:AAFEj2DoJgh4o4iPtBaqYzdr-9-LWWfwhCc";
+  // let token = "6867558928:AAFEj2DoJgh4o4iPtBaqYzdr-9-LWWfwhCc";
+  let token = "6493005309:AAFhsfqwf5Lxd1gLLbBR7rVka3oNQbRgKgg";
+
   // let chatId = "398384907";
   const bot = new TelegramApi(token, { polling: true });
 
